@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+.nav{
+    background-color: purple;
+    height: 150px;
+    width: auto;
+    display: flex; 
+}
+.nav div{
+    display: flex;
+}
+.motor{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+}
+.logo{
+    margin: 15px 0 0 15px;
+}
+.logo-text{
+    display: flex;
+    flex-direction: column;
+}
+.logo-text div{
+    color: white; 
+}
+.logo-text div i {
+    padding-right: 10px;
+}
+
+
+.inner-img{
+    background-image: url('images_car/back.jpg');
+    height: 250px;
+    width: 100%;
+    border-radius: 60px;
+    margin: -70px 0 0 0;
+}
+.opacity{
+    background-color: rgba(46, 1, 46, 0.747);
+    height: 250px;
+    width: 100%;
+    opacity: .8;
+    border-radius: 60px;
+    margin: -70px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    width: 250px;
+    height: 220px;
+}
+
+.carwash-logo{
+    background-color: rgb(88, 0, 88);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid ghostwhite;
+    border-bottom: 1px solid ghostwhite;
+    border-top: 1px solid ghostwhite;
+    margin-left: 30px;
+}
+.sub-title{
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.car-logo{
+    font-size: 15px;
+}
+.opacity > div ul{
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0;
+}
+.car-wash{
+    font-weight: 800;
+    color: white;
+    font-size: 35px;
+    padding: 0;
+}
+.car{
+    color: orange;
+}
+.mark{
+    color: orange;
+}
+
+
+/* package */
+.main h2{
+    margin-left: 20px;
+}
+.package-div{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.package{
+    width: 370px;
+    height: 120px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    margin-bottom: 20px;
+}
+.package div{
+    margin-left: 20px;
+}
+
+.interior{
+    width: 120px;
+    height: 90px;
+    border-radius: 10px;
+}
+.listing-div h3{
+    font-size: 14px;
+    margin-top: 25px;
+}
+.listing{
+    font-size: 10px;
+    padding: 0;
+    list-style-type: none;
+    line-height: 12px;
+    padding-top: 7px;
+}
+.price{
+    font-size: 10px;
+    margin-top: 8px;
+}
+.percent{
+    color: rgb(64, 105, 2);
+}
+.add{
+    padding: 2px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 120px;
+}

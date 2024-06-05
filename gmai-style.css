@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+#background{
+    height: 100vh;
+    width: 100%;
+    background-color: ghostwhite;
+}
+#top-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+#profile-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    padding-right: 10px;
+}
+#profile-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+#logo-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+}
+
+#search-div{
+    width: 640px;
+    height: 34px;
+    background-color: rgb(236, 236, 255);
+    border-radius: 28px;
+    padding: 10px 15px;  
+    margin-right: 140px;
+}
+.search{
+    outline: none;
+    width: 580px;
+    border: 0;
+    height: 30px;
+    background-color: rgb(236, 236, 255);
+    font-size: 17px;   
+}
+
+/* body */
+.main{
+    display: flex; 
+}
+.main-column{
+    display: flex;
+    flex-direction: column;
+}
+#listing{
+    width: 20%;
+}
+#last-column{
+    width: 5%;
+}
+#compose-div{
+    width: 140px;
+    height: 60px;
+    background-color: rgb(187, 231, 248);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 20px;
+}
+.compose{
+    text-decoration: none;
+    color: rgb(83, 79, 79);
+    font-size: 15px;
+}
+#compose-div div{
+    margin-right: 10px;
+}
+#link-div{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.link{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+}
+.inbox{
+    font-weight: bold;
+    background-color: rgb(214, 238, 248);
+    height: 30px;
+    width: 220px;
+    border-radius: 0;
+    margin-left: -20px;
+    padding: 0 10px 0 20px;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.labels{
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+
+
+/* mail */
+#mail{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    height: 550px;
+    width: 75%;
+    border-radius: 20px;
+    opacity: .9;
+}
+
+#mail-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mail-top div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    font-size: 14px;
+}
+#select{
+    border: 0;
+    outline: none;
+}
+#left-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.dropdown  span{
+    font-size: 11px;
+    cursor: pointer;
+}
+.left{
+    margin-right: 10px;
+}
+.dropdown{
+    position: relative; 
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin-top: 55px;
+    background-color: #f9f9f9;
+    width: 30px;
+    font-size: 8px;
+    color: gray;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 3px rgb(189, 188, 186);
+}
+
+
+#mail-top #left-top .dropdown:hover .dropdown-content{
+    visibility: visible;
+    display: block;
+}
+#mail-top #left-top .dropdown .dropdown-content {
+    visibility: hidden;
+} 
+
+/* top down */
+#mail-top-down{
+    height: 80px;
+    width: 100%;
+    margin: 10px;
+}
+#mail-top-down div{
+    display: flex;
+    padding: 5px; 
+}
+.mail-head{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.text > div{
+    margin: 0;
+}
+.paragraph{
+    font-size: 12px;
+    padding-right: 30px;
+}
+.icon{
+    color: gray;
+    font-size: 15px;
+    align-items: center;
+    margin-right: 10px;
+}
+#pry{
+    align-items: center; 
+    color: blue;
+    border-bottom: 3px solid blue;
+    width: 200px;
+}
+
+.primary{
+    text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+}
+
+.new{
+    background-color: green;
+    border-radius: 7px;
+    padding: 0 5px;
+    display: inline;
+    color: white;
+}
+#new-mail{
+    background-color: blue;
+}
+#mail-body{
+    overflow-y: scroll;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.message-div{
+    font-size: 14px;
+    display: flex;
+    width: 980px;
+    padding: 14px 1px;
+    border-top: 1px solid rgba(230, 228, 228, 0.521);
+    border-bottom: 1px solid rgba(230, 228, 228, 0.521);
+}
+.sender {
+    width: 18%;
+}
+.mails{
+    width: 60%;
+}
+.time{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.message{
+    line-height: 10px;
+    text-decoration: none;
+    color: black;
+}
+.message-div .time .hidden-part{
+    visibility: hidden;
+}
+.message-div:hover .time .hidden-part{
+    visibility: visible;
+}
+.message-div:hover {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px 1px rgb(201, 196, 196);
+    cursor: pointer;
+}
+.hidden-part button{
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+
+/* last-column */
+#last-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.image{
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+}
+#user{
+    margin-bottom: 50px;
+}

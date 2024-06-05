@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX_BOX</title>
+</head>
+<style>
+    body{
+        border: 0;
+    }
+    #row{
+        border: 3px solid rgb(0, 153, 255);
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .circle{
+        border: 0;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(43, 158, 252);
+    }
+    .box{
+        border: 1px solid rgb(17, 0, 255);
+        width: 400px;       
+        height: 250px;
+        border-radius: 5px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    
+    .box-paragraph{
+        text-align: justify;
+        font-size: 10px;
+        color: blue;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    #second-box{
+        border: 0;
+        background-color: rgb(177, 250, 214);
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 15px;
+    }
+    .inner-box{
+        width: 80px;
+        border: 0;
+        border-radius: 8px;
+        height: 130px;
+        background-color: rgba(4, 151, 78, 0.781);
+        padding: 5px 5px;
+    }
+    .smallbox{
+        height: 50px;
+        width: 80px;
+        background-color: rgb(63, 121, 91);
+        border-radius: 5px;
+    }
+    .second-box-paragraph{
+        font-size: 8px;
+        color: white;
+        font-family: 'Segoe UI';
+        text-align: justify;
+    }
+
+</style>
+<body>
+    <div id="row">
+        <div class="box">
+            <div class="circle"> </div>
+        </div>
+        <div class="box" >
+            <div class="box-paragraph"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ducimus cupiditate quam maiores, 
+                alias tempora sapiente laudantium earum amet consectetur adipisicing elit. Optio ducimus
+            </p></div>
+        </div>
+    </div>
+</br>
+    <div id="second-box">
+        <div class="inner-box">
+            <div class="smallbox">
+            </div>
+            <div class="second-box-paragraph"><p>Lorem ipsum dolor sit amet con sectetur adipi sicing elit. </p></div>
+        </div>
+        <div class="inner-box">
+            <div class="smallbox">
+            </div>
+            <div class="second-box-paragraph"><p>Lorem ipsum dolor sit amet con sectetur adipi sicing elit. </p></div>
+        </div>
+        <div class="inner-box">
+            <div class="smallbox">
+            </div>
+            <div class="second-box-paragraph"><p>Lorem ipsum dolor sit amet con sectetur adipi sicing elit. </p></div>
+        </div>
+    </div>
+</body>
+</html>
